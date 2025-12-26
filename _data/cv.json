@@ -1,152 +1,206 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Yuseon Choi",
+    "email": "yuseon.choi@kaist.ac.kr",
+    "phone": "+82-10-8237-4063",
+    "website": "https://yschoi31.github.io",
+    "summary": "M.S. student at KAIST (Graduate School of AI Semiconductor) researching AI accelerators and hardware–algorithm co-design for generative AI.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "city": "Daejeon",
+      "countryCode": "KR",
+      "region": "South Korea"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "network": "LinkedIn",
+        "username": "https://www.linkedin.com/in/yuseon-choi-840954297/",
+        "url": ""
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "network": "Google Scholar",
+        "username": "https://scholar.google.com/citations?user=8MlP6asAAAAJ&hl=en",
+        "url": ""
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "yschoi31",
+        "url": "https://github.com/yschoi31"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Semiconductor System Lab",
+      "location": "Daejeon, South Korea",
+      "position": "Master’s Researcher (Advisor: Hoi-Jun Yoo)",
+      "website": "https://ssl.kaist.ac.kr",
+      "startDate": "Dec. 2023",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Conducted research on digital accelerators with a focus on hardware–algorithm co-design for generative AI",
+        "Proposed heuristic-based quantization algorithm for LLM, improving low-bit inference accuracy and hardware efficiency",
+        "Designed an integer-based microarchitecture optimized for low-rank, rotation-based, and group-quantized workloads",
+        "Architected a mixed-precision caching strategy for energy-efficient on-premise deployment of Mixture-of-Experts models"
+      ]
+    },
+    {
+      "company": "Samsung Research",
+      "location": "Seoul, South Korea",
+      "position": "Intern (Advisor: Guyeon Wei, Fellow, Professor at Harvard SEAS)",
+      "website": "",
+      "startDate": "Jul. 2023",
+      "endDate": "Aug. 2023",
+      "summary": "",
+      "highlights": [
+        "Completed an internship at the SoC Architecture Team, Samsung Electronics DX Division R&D center",
+        "Surveyed Processing-in-Memory (PIM) and Compute-in-Memory (CIM) paradigms for energy-efficient AI workloads"
+      ]
+    },
+    {
+      "company": "Republic of Korea Marine Corps",
+      "location": "Incheon, South Korea",
+      "position": "Communication & Intelligence Sergeant",
+      "website": "",
+      "startDate": "Jan. 2021",
+      "endDate": "Jul. 2022",
+      "summary": "",
+      "highlights": [
+        "Served as a Signal Platoon Section (15 members) leader for 6 months, selected as “Distinguished Marine”",
+        "Managed overall maintenance, repair and operation of Tactical Network and Mobile Subscriber Access Point (MSAP)",
+        "Completed top honors in ICT education (F/AM, Satellite comm., Network) at Military Education & Training group"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "area": "M.S. in Graduate School of AI Semiconductor",
+      "studyType": "M.S.",
+      "startDate": "2024-09-01",
+      "endDate": "2026-08-01",
+      "gpa": "4.15 / 4.3",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+      "area": "B.S. in School of Electrical Engineering",
+      "studyType": "B.S.",
+      "startDate": "2019-03-01",
+      "endDate": "2024-08-01",
+      "gpa": "3.78 / 4.3 (Major GPA: 3.9 / 4.3)",
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Python",
+        "Verilog",
+        "C",
+        "Java/Kotlin"
+      ]
+    },
+    {
+      "name": "EDA & Simulation Tools",
+      "keywords": [
+        "Synopsys Design Compiler",
+        "Cadence Virtuoso"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Korean",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "TOEFL 98"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Snowboarding",
+      "keywords": []
+    },
+    {
+      "name": "Surfing",
+      "keywords": []
+    },
+    {
+      "name": "Basketball",
+      "keywords": []
+    },
+    {
+      "name": "Music",
+      "keywords": []
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "EdgeDiff: 418.4mJ/inference Multi-modal Few-step Diffusion Model Accelerator with Mixed-Precision and Reordered Group-Quantization",
+      "publisher": "IEEE International Solid-State Circuits Conference (ISSCC)",
+      "releaseDate": "2025-02-01",
+      "website": "https://ieeexplore.ieee.org/abstract/document/10904594",
+      "summary": "Conference paper presented at ISSCC 2025 (San Francisco, CA, USA; Feb. 2025)."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "LightRot: A Light-weighted Rotation Scheme and Architecture for Accurate Low-bit Large Language Model Inference",
+      "publisher": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems (JETCAS)",
+      "releaseDate": "2025-01-01",
+      "website": "https://ieeexplore.ieee.org/abstract/document/10950449",
+      "summary": "Journal article in IEEE JETCAS (2025)."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "GyRot: Leveraging Hidden Synergy between Rotation and Fine-grained Group Quantization for Low-bit LLM Inference",
+      "publisher": "IEEE International Symposium on High Performance Computer Architecture (HPCA)",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Conference paper at HPCA 2026."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "SeVeDo: A Heterogeneous Transformer Accelerator for Low-Bit Inference via Hierarchical Group Quantization and SVD-Guided Mixed Precision",
+      "publisher": "IEEE International Symposium on Circuits and Systems (ISCAS)",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Under review for ISCAS 2026."
+    },
+    {
+      "name": "SliceMoE: Bit-Sliced Expert Caching under Miss-Rate Constraints for Efficient MoE Inference",
+      "publisher": "ACM/IEEE Design Automation Conference (DAC)",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Submitted to DAC 2026."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
+      "name": "ISSCC 2025 Demonstration Session",
+      "category": "project",
+      "date": "2025-02-01",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Developed an application integrating a Diffusion Model with hardware acceleration to support multi-modality."
+    },
+    {
+      "name": "EE571 Advanced Electronic Circuits — SLAM-based Mine-clearing Robot",
+      "category": "project",
+      "date": "2024-06-01",
+      "url": "",
+      "description": "Built a SLAM-based mine-clearing robot and implemented YOLOv5 for object detection; ranked 1st among 8 teams."
+    },
+    {
+      "name": "EE405 Electronics Design Lab — AI-based Autonomous Rover / Bandgap-Reference Circuit",
+      "category": "project",
+      "date": "2023-06-01",
+      "url": "",
+      "description": "Designed a Bandgap-Reference Circuit (BGR) operating at 1.25/1.8V over -40~125°C."
     }
   ]
 }

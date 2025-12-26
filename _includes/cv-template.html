@@ -13,6 +13,65 @@
       width: 70%;
     }
   }
+  .cv-container {
+    font-size: 0.9em;   /* 0.8이면 너무 작을 수 있음. 필요하면 0.85~0.92 사이 조절 */
+
+    .cv-exp-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 0.35rem;
+  }
+
+  .cv-exp-left{
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .cv-exp-company-name{
+    font-weight: 800;
+  }
+
+  .cv-exp-position{
+    /* margin-top: 0.15rem; */
+    font-weight: 400;
+    opacity: 0.9;
+  }
+
+  .cv-exp-meta{
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    line-height: 1.25;
+    white-space: nowrap;
+  }
+
+  .cv-exp-date{
+    margin-top: 0.3rem;
+    font-weight: 400;
+    opacity: 0.75;
+    font-size: 0.95em;
+  }
+
+  .cv-exp-location-right{
+    margin-top: 0.25em;
+    opacity: 0.7;
+    font-size: 0.92em;
+  }
+
+  /* line-height: 1.45; */
+}
+/* 
+.cv-container h1 { font-size: 1.8em; margin-bottom: 0.2rem; }
+.cv-container h2 { font-size: 1.15em; }
+.cv-container h3 { font-size: 1.0em; } */
+
+
+
 </style>
 
 <div class="cv-container">
@@ -98,22 +157,47 @@
   
   {% if cv.work.size > 0 %}
   <!-- Work Experience -->
-  <div class="cv-section">
-    <h2>Work Experience</h2>
+  <div class="cv-section cv-exp">
+    <h2>PROFESSIONAL EXPERIENCE</h2>
     <ul class="cv-list">
       {% for work in cv.work %}
       <li class="cv-item">
-        <div class="cv-item-header">
-          <div class="cv-item-title">{{ work.position }}</div>
-          <div class="cv-item-date">{{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %}</div>
+        <!-- 1줄: 회사 | 지역  (좌)  / 기간 (우) -->
+        <div class="cv-item-header cv-exp-header">
+          <!-- 왼쪽: 회사 + 포지션을 세로로 -->
+          <div class="cv-exp-left">
+            <div class="cv-exp-company-name">{{ work.company }}</div>
+            {% if work.position %}
+            <div class="cv-exp-position"><em>{{ work.position }}</em></div>
+            {% endif %}
+          </div>
+        
+          <!-- 오른쪽: 날짜 + 위치를 세로로 -->
+          <div class="cv-exp-meta">
+            <div class="cv-exp-date">
+              {{ work.startDate }}{% if work.endDate %} - {{ work.endDate }}{% endif %}
+            </div>
+            {% if work.location %}
+            <div class="cv-exp-location-right">{{ work.location }}</div>
+            {% endif %}
+          </div>
         </div>
+
+
         <div class="cv-item-content">
-          <div class="cv-item-subtitle">{{ work.company }}</div>
+          <!-- 2줄: 직함(Advisor 포함 가능) -->
+          <!-- {% if work.position %}
+          <div class="cv-exp-position"><em>{{ work.position }}</em></div>
+          {% endif %} -->
+
+          <!-- (선택) summary는 CV에 없으면 보통 숨김 -->
           {% if work.summary %}
           <div class="cv-item-detail">{{ work.summary }}</div>
           {% endif %}
+
+          <!-- 3줄+: bullet -->
           {% if work.highlights.size > 0 %}
-          <ul class="cv-highlights">
+          <ul class="cv-highlights cv-exp-highlights">
             {% for highlight in work.highlights %}
             <li>{{ highlight }}</li>
             {% endfor %}
@@ -125,6 +209,7 @@
     </ul>
   </div>
   {% endif %}
+
   
   {% if cv.skills.size > 0 %}
   <!-- Skills -->

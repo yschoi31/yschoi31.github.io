@@ -1,0 +1,72 @@
+.news-box {
+    max-height: 220px; // 원하는 높이로 조절
+    overflow-y: auto;
+    padding: 0.9rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.02);
+}
+
+.news-box ul {
+    margin: 0;
+    padding-left: 1.2em;
+}
+
+.news-box li {
+    margin: 0.35em 0;
+}
+
+.news-table .news-row {
+    display: grid;
+    grid-template-columns: 3.5rem 1fr; // 왼쪽 날짜 폭 (원하면 6rem 등으로)
+    gap: 0.8rem;
+    align-items: start;
+    padding: 0.35rem 0;
+}
+
+.news-table .news-row+.news-row {
+    border-top: 1px solid rgba(0, 0, 0, 0.08); // 줄 사이 구분선 (원하면 삭제)
+}
+
+.news-table .news-date {
+    font-weight: 600;
+    white-space: nowrap; // 날짜는 줄바꿈 금지
+    opacity: 0.85;
+}
+
+.news-table .news-text {
+    min-width: 0; // grid에서 긴 텍스트 줄바꿈을 제대로 하기 위한 필수 트릭
+    word-break: keep-all; // 영문이면 크게 상관 없지만, 한글 섞이면 예쁘게
+    overflow-wrap: anywhere;
+}
+
+
+.news-table .news-row {
+    display: grid;
+    grid-template-columns: 4.2rem 1.6rem 1fr; // 날짜 / 이모지 / 설명
+    gap: 0.6rem;
+    align-items: start;
+    padding: 0.35rem 0;
+}
+
+.news-table .news-row+.news-row {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.news-table .news-date {
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 0.85;
+}
+
+.news-table .news-emo {
+    width: 1.6rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.news-table .news-text {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    word-break: keep-all;
+}
