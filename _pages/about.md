@@ -84,6 +84,6 @@ Thank you for taking an interest in my journey — more to come.
 
 Feel free to reach out for research discussions or collaboration.
 
--Email: [yuseon.choi@kaist.ac.kr](yuseon.choi@kaist.ac.kr)
+Email: [yuseon.choi@kaist.ac.kr](yuseon.choi@kaist.ac.kr)
 
 — Yuseon Choi
