@@ -11,7 +11,7 @@ Hello, I'm **Yuseon Choi**, an M.S. student at _KAIST_, where I conduct research
 
 ## Biography
 
-I received my B.S. degree in Electrical Engineering from _KAIST_ in 2024, and am currently pursuing my master’s degree. Previously, I was a research intern at _Samsung Research_, advised by Former Fellow [Guyeon Wei](https://scholar.google.com/citations?user=IR0yJB8AAAAJ&hl=en), and served in _Republic of Korea Marine Corps (ROKMC)_ for 1.5 years.
+I received my B.S. degree in Electrical Engineering from _KAIST_ in 2024, and am currently pursuing my master’s degree. Previously, I was a research intern at _Samsung Research_, advised by Former Fellow Prof. [Guyeon Wei](https://scholar.google.com/citations?user=IR0yJB8AAAAJ&hl=en), and served in _Republic of Korea Marine Corps (ROKMC)_ for 1.5 years.
 
 ## Research Interest
 
