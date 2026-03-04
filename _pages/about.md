@@ -31,6 +31,12 @@ Thank you for taking an interest in my journey — more to come.
 
 <div class="news-box news-table">
   <div class="news-row">
+    <div class="news-date">2026.03</div>
+    <div class="news-emo">🎉</div>
+    <div class="news-text">My first-authored paper, <em>SliceMoE</em>, was accepted to DAC'26.</div>
+  </div>
+
+  <div class="news-row">
     <div class="news-date">2025.12</div>
     <div class="news-emo">🎉</div>
     <div class="news-text">My first-authored paper, <em>“SeVeDo”</em>, was accepted to ISCAS'26.</div>
