@@ -33,7 +33,7 @@ Thank you for taking an interest in my journey — more to come.
   <div class="news-row">
     <div class="news-date">2026.03</div>
     <div class="news-emo">🎉</div>
-    <div class="news-text">My first-authored paper, <em>SliceMoE</em>, was accepted to DAC'26.</div>
+    <div class="news-text">My first-authored paper, <em>"SliceMoE"</em>, was accepted to DAC'26.</div>
   </div>
 
   <div class="news-row">
