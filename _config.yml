@@ -12,7 +12,7 @@ site_theme               : "default" # the available themes options are "default
 title                    : "Yuseon Choi"
 title_separator          : "-"
 name                     : &name "Yuseon Choi"
-description              : &description "Master's student at KAIST working on digital accelerator design."   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Researcher at GIST working on digital accelerator design."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://yschoi31.github.io"
 baseurl                  : ""
 repository               : "yschoi31/yschoi31.github.io"
@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Yuseon Choi"
   pronouns         : # example: "she/her"  
-  bio              : "Master's student at KAIST\nDigital Accelerator"
-  location         : "Daejeon, South Korea"
-  employer         : "KAIST"
+  bio              : "Researcher at GIST\nDigital Accelerator"
+  location         : "Gwangju, South Korea"
+  employer         : "GIST"
   uri              : # URL
   email            : "yuseon.choi@kaist.ac.kr" 
 

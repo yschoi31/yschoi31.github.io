@@ -7,17 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I'm **Yuseon Choi**, an M.S. student at _KAIST_, where I conduct research on AI accelerators at [SSL](https://ssl.kaist.ac.kr) under Prof. [Hoi-Jun Yoo](https://scholar.google.com/citations?user=92lpdnsAAAAJ&hl=en), working primarily with Prof. [Sangjin Kim](https://scholar.google.com/citations?user=ScgPYbQAAAAJ&hl=en). 
+Hello, I'm **Yuseon Choi**, a researcher at [SYMPLE Lab](https://symplelab.com/), _GIST_. I work with Prof. [Sangjin Kim](https://scholar.google.com/citations?user=ScgPYbQAAAAJ&hl=en) and collaborate with Prof. [Thierry Tambe](https://thierrytambe.com/) at _Stanford University_ on memory-centric AI systems. And I am preparing for Ph.D. admission 2027 Fall.
 
-## Biography
-
-I received my B.S. degree in Electrical Engineering from _KAIST_ in 2024, and am currently pursuing my master’s degree. Previously, I was a research intern at _Samsung Research_, advised by Former Fellow Prof. [Guyeon Wei](https://scholar.google.com/citations?user=IR0yJB8AAAAJ&hl=en), and served in _Republic of Korea Marine Corps (ROKMC)_ for 1.5 years.
+I received my B.S. (2024) and M.S. (2026) degrees in Electrical Engineering from _KAIST_. As a master’s researcher at [SSL](https://ssl.kaist.ac.kr), advised by Prof. [Hoi-Jun Yoo](https://scholar.google.com/citations?user=92lpdnsAAAAJ&hl=en). Previously, I was a research intern at _Samsung Research_, advised by Former Fellow Prof. [Guyeon Wei](https://scholar.google.com/citations?user=IR0yJB8AAAAJ&hl=en), and served in the _Republic of Korea Marine Corps (ROKMC)_ for 1.5 years.
 
 ## Research Interest
 
 My research focuses on **digital accelerators** and **hardware–algorithm co-design** for generative AI. I have worked on efficient LLM inference across the stack, from architecture-level optimizations to silicon-verified implementation:
 - Quantization-driven, energy-efficient NPU design
-- System-level architecting for on-premises AI deployment  
+- System-level architecting for on-premises AI deployment
+- HBF-enabled acceleration for agentic AI and physical AI
 
 Looking forward, I am interested in extending this holistic approach to accelerate emerging AI workloads at scale in deployable systems.
 
@@ -30,6 +29,24 @@ Thank you for taking an interest in my journey — more to come.
 ## News
 
 <div class="news-box news-table">
+  <div class="news-row">
+    <div class="news-date">2026.11</div>
+    <div class="news-emo">🎉</div>
+    <div class="news-text">My first-authored paper, <em>"ELMoE-3D"</em>, was accepted to HPCA'26.</div>
+  </div>
+
+  <div class="news-row">
+    <div class="news-date">2026.09</div>
+    <div class="news-emo">🔬</div>
+    <div class="news-text">Joined SYMPLE Lab at GIST as a researcher, collaborating with Prof. Thierry Tambe at Stanford.</div>
+  </div>
+
+  <div class="news-row">
+    <div class="news-date">2026.08</div>
+    <div class="news-emo">🎓</div>
+    <div class="news-text">Received my M.S. degree in Electrical Engineering from KAIST.</div>
+  </div>
+
   <div class="news-row">
     <div class="news-date">2026.03</div>
     <div class="news-emo">🎉</div>
@@ -90,6 +107,6 @@ Thank you for taking an interest in my journey — more to come.
 
 Feel free to reach out for research discussions or collaboration.
 
-Email: [yuseon.choi@kaist.ac.kr](yuseon.choi@kaist.ac.kr)
+Email: [yvseon.choi@gmail.com](yvseon.choi@gmail.com)
 
 — Yuseon Choi
