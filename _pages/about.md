@@ -38,7 +38,7 @@ Thank you for taking an interest in my journey — more to come.
   <div class="news-row">
     <div class="news-date">2026.09</div>
     <div class="news-emo">🔬</div>
-    <div class="news-text">Joined SYMPLE Lab at GIST as a researcher, collaborating with Prof. Thierry Tambe at Stanford.</div>
+    <div class="news-text">Joined SYMPLE Lab at GIST as a researcher.</div>
   </div>
 
   <div class="news-row">
