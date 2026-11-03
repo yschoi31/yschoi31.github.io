@@ -32,7 +32,7 @@ Thank you for taking an interest in my journey — more to come.
   <div class="news-row">
     <div class="news-date">2026.11</div>
     <div class="news-emo">🎉</div>
-    <div class="news-text">My first-authored paper, <em>"ELMoE-3D"</em>, was accepted to HPCA'26.</div>
+    <div class="news-text">My first-authored paper, <em>"ELMoE-3D"</em>, was accepted to HPCA'27.</div>
   </div>
 
   <div class="news-row">
